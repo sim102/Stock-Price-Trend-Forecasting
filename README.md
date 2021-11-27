@@ -3,6 +3,7 @@
 ## Introduction
 
 LSTM (Long-Short-term memory) is a powerful RNN architecture, capable of learning long-term dependencies. 
+
 In this project, we will predict stock price trend of the google stock price using keras, tensorflow.
 
 ## Methods
@@ -17,5 +18,7 @@ Summarized steps are followings:
 
 ## Things to improve
 I have also tried to forecast apple stock price using those of other companies, Foxconn and Samsung, that are highly correlated with Apple.
+
 Foxconn is the no. 1 semiconductor supplier of Apple, and Samsung(also a semiconductor supplier)'s galaxy smartphones have very similar reputation and release date as Apple' Iphone.
+
 However, the model does not seem to capture the correlation. I would like to work further on this to understand why it is the case.
